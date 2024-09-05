@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TasksApp | DApp</title>
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 class="my-4">DApp INCREMENTAR</h1>
+
+                <form id="formulario1" class="card card-body bg-dark mb-2">
+                    <button class="btn btn-primary">Incrementar numero</button>
+                </form>
+                <div class="card-body"> <span>Dirección: </span> <span id="direccion">0x000000000000</span> </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="height: 100%;">
+                    <div class="card-body">
+                        <div id="numero_web">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="/libs/web3/dist/web3.min.js"></script> -->
+    <script src="/libs/@truffle/contract/browser-dist/truffle-contract.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./ui.js"></script>
+</body>
+
+</html>

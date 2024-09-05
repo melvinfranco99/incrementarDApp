@@ -1,0 +1,14 @@
+body {
+    background: rgb(17, 16, 83);
+    color: azure;
+}
+
+#numero_web {
+    font-size: 48px;
+    /* Tamaño de fuente más grande */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Ocupa toda la altura de la tarjeta */
+}
